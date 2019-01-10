@@ -6,7 +6,7 @@ if (MSVC)
     add_definitions(/W4)
 else()
     add_definitions(-Wall)
-    add_definitions(-std=c++17)
+    add_definitions(-std=c++11)
 endif()
 
 include_directories(include)
